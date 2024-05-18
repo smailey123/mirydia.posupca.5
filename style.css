@@ -66,12 +66,12 @@ nav{
    width: 300px;
 }
 .h3_art{
-    font-size: 15px;
+    font-size: 20px;
     color:#000000;
     text-decoration: none;
 }
 .p_art{
-    font-size: 12px;
+    font-size: 15px;
     
 }
 .osnova_a{
@@ -89,23 +89,46 @@ footer{
 }
 ul{
     font-size:14px;
+    margin:5px;
+    color:#870202;
 }
 .footer_article{
     border:2px solid #ffffff;
-    height: 120px ;
-    width: 200px;
+    height: 140px ;
+    width: 250px;
     padding: 7px;
 }
 .footer_p{
     font-size: 14px;
+    color:#870202;
 }
 .footer2_article{
     border:2px solid #ffffff;
-    height: 80px ;
-    width: 200px;
+    height: 140px ;
+    width: 290px;
     padding: 7px;
 }
 .footer_section{
     display:flex;
     justify-content: space-around;
+}
+.a_li{
+    color:#870202;
+    text-decoration:none;
+}
+.footer_img{
+    width: 50px;
+    margin: 5px;
+}
+.osnova_arc1{
+    width:23%;
+    background-color: #730000;
+    color:#ffffff;
+    height: 9%;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+}
+.osnova_arc1:hover{
+    background-color: #aa0000;
 }
